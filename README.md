@@ -1,4 +1,6 @@
-# carbona
+# carbonacharcoal.com
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fcc46c6f-5a1f-44b3-a07d-ed2d373f0869/deploy-status)](https://app.netlify.com/projects/carbonacharcoal/deploys)
 
 To install dependencies:
 
