@@ -1,0 +1,141 @@
+:root {
+  --gold: #cc8c0c;
+  --black: #000000;
+  --white: #d9d9d9;
+  --fs-sm: clamp(0.8rem, 0.17vi + 0.76rem, 0.89rem);
+  --fs-base: clamp(1rem, 0.34vi + 0.91rem, 1.15rem);
+  --fs-md: clamp(1.25rem, 0.61vi + 1.1rem, 1.58rem);
+  --fs-lg: clamp(1.56rem, 1vi + 1.31rem, 2.11rem);
+}
+
+@font-face {
+  font-family: "Goldman";
+  src: url("/fonts/Goldman/Goldman-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body {
+  background-color: var(--black);
+  overflow: hidden auto;
+  font-family:
+    "Goldman",
+    system-ui,
+    -apple-system,
+    sans-serif;
+  color: var(--white);
+  font-size: var(--fs-base);
+}
+
+.container {
+  max-width: 640px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-block-start: 2rem;
+}
+
+#logomark {
+  width: 100%;
+  max-width: 192px;
+}
+
+#workmark {
+  max-width: 100%;
+}
+
+section#hero {
+  position: relative;
+  padding-block: 7rem 5rem;
+}
+
+section#info {
+  position: relative;
+}
+
+#cedrus {
+  position: absolute;
+  bottom: -52px;
+  right: -110px;
+  z-index: 0;
+  width: 512px;
+  max-inline-size: unset;
+  max-block-size: unset;
+}
+
+#charcoal {
+  position: relative;
+  width: 100%;
+}
+
+#vip {
+  position: absolute;
+  top: 1.5rem;
+  left: 0;
+  z-index: 1;
+  width: 128px;
+  opacity: 0.85;
+}
+
+#coconut {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 1;
+  width: 112px;
+  opacity: 0.85;
+}
+
+#natural {
+  position: absolute;
+  top: 3.5rem;
+  right: 1rem;
+  z-index: 1;
+  width: 96px;
+  opacity: 0.85;
+}
+
+h2 {
+  color: var(--gold);
+}
+
+ul {
+  padding-block: 0.5rem;
+  padding-inline-start: 1rem;
+  list-style: disc;
+}
+
+li {
+  padding-block: 0.25rem;
+  color: var(--white);
+}
+
+h2 {
+  font-size: var(--fs-md);
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+footer a img {
+  width: 1.25rem;
+}
+
+footer {
+  margin-block-end: 2rem;
+}

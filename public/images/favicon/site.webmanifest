@@ -1,0 +1,19 @@
+{
+  "name": "Carbona Charcoal",
+  "short_name": "Carbona",
+  "icons": [
+    {
+      "src": "/images/favicon/android-chrome-192x192.png",
+      "sizes": "192x12",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#CC8C0C",
+  "background_color": "#000000",
+  "display": "standalone"
+}
