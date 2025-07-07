@@ -110,6 +110,9 @@ h2 {
 ul {
   padding-block: 0.5rem;
   padding-inline-start: 1rem;
+}
+
+ul.disc {
   list-style: disc !important;
 }
 
