@@ -85,15 +85,6 @@ section#info {
   opacity: 0.85;
 }
 
-#coconut {
-  position: absolute;
-  bottom: 1rem;
-  right: 1rem;
-  z-index: 1;
-  width: 112px;
-  opacity: 0.85;
-}
-
 #natural {
   position: absolute;
   top: 3.5rem;
